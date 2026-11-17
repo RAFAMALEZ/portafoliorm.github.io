@@ -30,16 +30,21 @@ The primary goal of this project is to practice software engineering best practi
 
 ### Tools and Project Type
 
-<span style="background-color: #1f4e78; color: white; padding: 5px 12px; border-radius: 4px; display: inline-block; margin: 3px; font-size: 13px; font-weight: bold;">🐍 Python</span>
-<span style="background-color: #1f4e78; color: white; padding: 5px 12px; border-radius: 4px; display: inline-block; margin: 3px; font-size: 13px; font-weight: bold;">🐼 Pandas</span>
-<span style="background-color: #1f4e78; color: white; padding: 5px 12px; border-radius: 4px; display: inline-block; margin: 3px; font-size: 13px; font-weight: bold;">📊 Plotly Express</span>
-<span style="background-color: #1f4e78; color: white; padding: 5px 12px; border-radius: 4px; display: inline-block; margin: 3px; font-size: 13px; font-weight: bold;">🌐 Streamlit</span>
-<span style="background-color: #1f4e78; color: white; padding: 5px 12px; border-radius: 4px; display: inline-block; margin: 3px; font-size: 13px; font-weight: bold;">🔧 Git & GitHub</span>
-<span style="background-color: #1f4e78; color: white; padding: 5px 12px; border-radius: 4px; display: inline-block; margin: 3px; font-size: 13px; font-weight: bold;">☁️ Render</span>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render">
+</p>
 
-<span style="background-color: #333333; color: white; padding: 5px 12px; border-radius: 4px; display: inline-block; margin: 3px; font-size: 13px; font-weight: bold;">Data Cleaning</span>
-<span style="background-color: #333333; color: white; padding: 5px 12px; border-radius: 4px; display: inline-block; margin: 3px; font-size: 13px; font-weight: bold;">Exploratory Data Analysis (EDA)</span>
-<span style="background-color: #333333; color: white; padding: 5px 12px; border-radius: 4px; display: inline-block; margin: 3px; font-size: 13px; font-weight: bold;">Interactive Dashboard</span>
+<p>
+  <img src="https://img.shields.io/badge/Data_Cleaning-333333?style=for-the-badge" alt="Data Cleaning">
+  <img src="https://img.shields.io/badge/EDA-333333?style=for-the-badge" alt="EDA">
+  <img src="https://img.shields.io/badge/Interactive_Dashboard-333333?style=for-the-badge" alt="Interactive Dashboard">
+</p>
 
 ### Key Questions
 
@@ -69,4 +74,5 @@ The primary goal of this project is to practice software engineering best practi
 
 * **Live Application:** [View Live App on Render](https://proyecto-s7-rm.onrender.com)
 * **Source Code:** [GitHub Repository](https://github.com/RAFAMALEZ/proyecto_s7_rm)
+
 ---
