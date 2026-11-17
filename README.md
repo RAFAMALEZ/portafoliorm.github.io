@@ -11,7 +11,7 @@ I generate actionable insights that optimize processes and support strategic dec
 
 ## Soft Skills
 
-Data Analysis • Problem Solving • Effective Communication • Teamwork • Results-Oriented • Organization • Proactivity • Attention to Detail • Process Optimization
+Data Analysis / Problem Solving / Effective Communication / Teamwork / Results-Oriented / Organization / Proactivity / Attention to Detail / Process Optimization
 
 ---
 
