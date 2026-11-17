@@ -6,12 +6,16 @@ I generate actionable insights that optimize processes and support strategic dec
 
 ## Technical Skills
 
-* Data analysis and management using **Excel / SQL / Python / Power BI**
-* Data visualization and storytelling using **Streamlit / Plotly Express**
+* Data analysis and management using **Excel / SQL / Python**
+* Data visualization and storytelling using **Power BI**
 
 ## Soft Skills
 
-Data Analysis / Problem Solving / Effective Communication / Teamwork / Results-Oriented / Organization / Proactivity / Attention to Detail / Process Optimization
+### Soft Skills
+
+<span style="display: block; line-height: 1.8;">
+Data Analysis | Problem Solving | Effective Communication | Teamwork | Results-Oriented | Organization | Proactivity | Attention to Detail | Process Optimization
+</span>
 
 ---
 
