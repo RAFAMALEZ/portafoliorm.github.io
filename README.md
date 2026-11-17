@@ -1,9 +1,3 @@
-## Rafael Ricardo Malez Ruiz
-
-![Mi Foto de Perfil](https://github.com/RAFAMALEZ.png)
-
-¡Hello! Welcome to my Data Analysis project portfolio.
-
 [View My GitHub Profile](https://github.com/RAFAMALEZ)
 
 ---
@@ -25,4 +19,5 @@ Data Analysis | Problem Solving | Effective Communication | Teamwork | Results-O
 
 ---
 
-[ LINKEDIN ](https://www.linkedin.com/in/rafael-malez-data-analyst/)  |  [ MICROSOFT OUTLOOK ](mailto:malezrafael@gmail.com)
+<a href="https://www.linkedin.com/in/rafael-malez-data-analyst/" target="_blank" style="background-color: #1f4e78; color: white; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 4px; display: inline-block; margin-right: 10px;">LINKEDIN</a>
+<a href="mailto:malezrafael@gmail.com" style="background-color: #1f4e78; color: white; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 4px; display: inline-block;">MICROSOFT OUTLOOK</a>
