@@ -104,45 +104,45 @@ Conducted data-driven market research and predictive analysis to identify global
 </p>
 
 ### Project Overview
-Working for the online store **Ice**, the objective was to identify patterns determining game success to optimize advertising campaigns and inventory planning for 2017 using historical data up to 2016.
+Working with the online retailer **Ice**, the goal was to identify patterns associated with game success and use them to improve advertising campaigns and inventory planning for 2017 using historical data through 2016.
 
 ### Methodology & Key Findings
 
 #### 1. Historical Release Trends
-An analysis of game releases across decades shows an exponential boom peaking in 2008–2009 (>1,400 releases), followed by a significant decline as the industry transitioned to Free-to-Play (F2P) models. Data prior to 2013 was filtered out to avoid obsolescence bias.
+Game releases grew exponentially over the decades, peaking in 2008–2009 at more than 1,400 titles per year. Releases then declined significantly as the industry shifted toward free-to-play (F2P) models. To reduce the influence of outdated trends, data from before 2013 was excluded from the analysis.
 
 ![Games Released by Year](images/games_released.png)
 
 #### 2. Platform Lifecycles & Current Trends
-Historical sales show that legacy hardware (PS2, Wii, Xbox 360) experiences an average lifecycle of ~10 years before sales drop to zero. For the 2017 campaign, eighth-generation platforms (**PS4** and **Xbox One**) represent the primary drivers of profitability.
+Historical sales data suggests that legacy consoles —including the PS2, Wii, and Xbox 360—typically remain on the market for about 10 years before sales taper off. For the 2017 campaign, eighth-generation consoles— the PS4 and Xbox One—are expected to be the primary drivers of profitability.
 
 ![Top Sales by Platform](images/Top_Sales_by_Platform.png)
 ![Current Sales Trends](images/Current_Sales_Trends.png)
 
 #### 3. Global Sales Distribution (Boxplot Analysis)
-Global sales distributions exhibit positive skewness driven by blockbuster hits. Consoles like Xbox 360, PS4, and Xbox One show higher volatility and greater potential reward, while PC and 3DS offer stable, lower-risk distributions.
+Global sales are positively skewed, with a small number of blockbuster titles driving the upper end of the distribution. Xbox 360, PS4, and Xbox One show greater sales variability and higher upside, while PC and 3DS sales are more concentrated and comparatively stable.
 
 ![Sales Distribution by Platform](images/Sales_Distribution.png)
 
 #### 4. Impact of Reviews on Sales (PS4 Case Study)
-A scatter plot analysis reveals a **moderate positive correlation** ($r \approx 0.4$) between critic scores and sales, whereas user scores show negligible correlation. Top-tier commercial success requires high professional ratings (>80), but scores alone do not guarantee blockbuster volumes.
+Scatter plot analysis shows a moderate positive correlation between critic scores and sales (r ≈ 0.4), while user scores have little correlation with sales. High professional ratings (above 80) are common among top-selling games, but ratings alone do not guarantee blockbuster sales.
 
 ![Critic Score vs Total Sales](images/Critic_Score_vs_Total_Sales.png)
 
 #### 5. Multiplatform Blockbuster Performance
-Top-selling titles concentrate their revenue heavily in Sony and Microsoft ecosystems, with consumer preference leaning heavily toward PlayStation hardware.
+Top-selling titles generate the bulk of their revenue on Sony and Microsoft platforms, with consumers showing a strong preference for PlayStation.
 
 ![Total Sales of Top Games by Platform](images/Top_Games_Sales.png)
 
 ### Statistical Hypothesis Testing
-To validate platform and genre assumptions, two-sample independent t-tests (`scipy.stats.ttest_ind`) were conducted using a significance threshold &alpha (α = 0.05):
-* **Xbox One vs. PC User Ratings:** Tested whether mean user ratings are equal (H₀).
-* **Action vs. Sports Genre Ratings:** Tested whether mean user ratings differ (H₁).
+To evaluate assumptions about platforms and genres, we conducted independent two-sample t-tests using `scipy.stats.ttest_ind`, with a significance level of `α = 0.05`:
+* **Xbox One vs. PC User Ratings:** Tested whether the mean user ratings differ between platforms (H₀: the means are equal).
+* **Action vs. Sports Genre Ratings:** Tested whether the mean user ratings differ between genres (H₁: the means differ).
 
 ### Strategic Recommendations for 2017 Campaign
-1. **Focus on Dominant Hardware:** Direct western advertising budgets primarily toward PS4 and Xbox One; phase out legacy platforms.
-2. **Regional Localization (Japan):** Tailor Japanese market campaigns specifically toward portable consoles (Nintendo 3DS) and Role-Playing games, as western strategies fail in Asia.
-3. **Inventory Strategy:** Prioritize consistent high-yield genres like **Shooters** to maximize return on investment and minimize storage risk.
+1. **Prioritize leading hardware platforms:** Direct most Western advertising spend toward PS4 and Xbox One, while gradually reducing investment in legacy platforms.
+2. **Localize campaigns for Japan:** Focus on portable consoles, particularly Nintendo 3DS, and role-playing games. Western campaign strategies may not translate effectively to the Japanese market.
+3. **Optimize inventory:** Prioritize reliable, high-performing genres such as **Shooters** to improve return on investment and reduce the risk of unsold inventory.
 
 ### Links
 * **Source Code & Notebook:** [GitHub Repository](https://github.com/RAFAMALEZ/tu-repositorio-proyecto-ice)
