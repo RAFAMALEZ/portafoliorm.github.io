@@ -57,12 +57,12 @@ The primary goal of this project is to practice software engineering best practi
 * **Environment Setup & Preprocessing:** Configured Python virtual environments, managed dependencies via `requirements.txt`, and ensured dataset integrity.
 * **Exploratory Data Analysis (EDA):** Performed initial data analysis inside Jupyter Notebooks (`EDA.ipynb`) using Pandas and Plotly Express to identify core market patterns.
 * **Interactive Web App Development:** Built a web application using Streamlit (`app.py`), integrating interactive checkboxes and dynamic visual components.
-* **Cloud Deployment:** Deployed the application to production on Render, maintaining continuous integration with the GitHub repository.
+* **Cloud Deployment:** Deployed the application to production on Render and maintaining continuous integration with the GitHub repository.
 
 ### Conclusions and Recommendations
 
 #### Critical Market Insights:
-* **Price Distribution:** The vast majority of listings are concentrated in the lower-to-mid price range (peaking around $15,000), showing a rapid decline in supply as prices increase, dominated by accessible economy cars.
+* **Price Distribution:** Most listings are concentrated in the lower-to-mid price range (peaking around $15,000), with supply declining rapidly as prices rise and being dominated by accessible economy cars.
 * **Depreciation Trend:** The scatter plot demonstrates a clear inverse relationship between mileage and price—vehicles with higher odometer readings exhibit a significant drop in market value. Most standard market vehicles cluster under 200,000 miles and $50,000.
 * **Outliers:** Isolated extreme values (such as prices near $375,000 or mileages near 1,000,000) reflect data entry anomalies or specialized commercial vehicles.
 
@@ -83,7 +83,7 @@ The primary goal of this project is to practice software engineering best practi
 
 #### 🎮 Global Video Game Market Analysis (Ice Store Campaign 2017)
 
-Data-driven market research and predictive analysis to identify global trends, platform lifecycles, and regional preferences for strategic advertising planning.
+Conducted data-driven market research and predictive analysis to identify global trends, platform lifecycles, and regional preferences to inform strategic advertising planning.
 
 ### Tools and Project Type
 
@@ -135,9 +135,9 @@ Top-selling titles concentrate their revenue heavily in Sony and Microsoft ecosy
 ![Total Sales of Top Games by Platform](images/Top_Games_Sales.png)
 
 ### Statistical Hypothesis Testing
-To validate platform and genre assumptions, two-sample independent t-tests (`scipy.stats.ttest_ind`) were conducted using a significance threshold ($\alpha = 0.05$):
-* **Xbox One vs. PC User Ratings:** Tested whether mean user ratings are equal ($H_0$).
-* **Action vs. Sports Genre Ratings:** Tested whether mean user ratings differ ($H_1$).
+To validate platform and genre assumptions, two-sample independent t-tests (`scipy.stats.ttest_ind`) were conducted using a significance threshold &alpha (α = 0.05):
+* **Xbox One vs. PC User Ratings:** Tested whether mean user ratings are equal (H₀).
+* **Action vs. Sports Genre Ratings:** Tested whether mean user ratings differ (H₁).
 
 ### Strategic Recommendations for 2017 Campaign
 1. **Focus on Dominant Hardware:** Direct western advertising budgets primarily toward PS4 and Xbox One; phase out legacy platforms.
